@@ -3,11 +3,11 @@ function darkMode() {
     var socials = [];
     var mode = document.getElementById("mode");
 
-    if (mode.attributes.src.nodeValue == "darkmode.png") {
-        mode.src = "lightmode.png";
+    if (mode.attributes.src.nodeValue == "html/darkmode.png") {
+        mode.src = "html/lightmode.png";
     }
     else {
-        mode.src = "darkmode.png";
+        mode.src = "html/darkmode.png";
     }
 
     socials.push(document.getElementById("gh"));
